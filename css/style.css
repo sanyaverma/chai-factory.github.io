@@ -1,0 +1,47 @@
+a{
+  font-family : raleway ;
+  font-weight: 900;
+  font-size :18px;
+  margin : 0px 8px 0px 2px ;
+  padding : 10px;
+  color : #000000 ;
+  text-decoration : none;
+  position : relative ;
+}
+a:hover{
+  animation : hovering 0.4s ease-in-out both;
+  color : #000000 ;
+  text-decoration: line-through;
+}
+nav{
+  display : flex ;
+  flex-wrap : wrap ;
+  justify-content : flex-end ;
+  background : #ce4041 ;
+}
+@media screen and (max-width : 640px ){
+  nav{
+    justify-content: space-around ;
+  }
+}
+@media screen and (max-width : 400px ){
+  nav{
+    flex-direction : column ;
+    align-items : center ;
+    padding : 10px ;
+  }
+  a{
+    padding : 10px ;
+  }
+}
+@keyframes hovering{
+  0%{
+    color : #000000;
+
+  }
+  100%{
+    color : #ffffff ;
+    font-weight : 900;
+
+  }
+}
