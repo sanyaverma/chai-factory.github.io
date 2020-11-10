@@ -17,6 +17,7 @@ a:hover {
 
 .nav_active {
   color: #fafafa;
+  background-color: black;
   text-decoration: underline;
   font-weight: 600;
   display: inline-block;
@@ -196,23 +197,25 @@ ul.box li:after {
 .description {
   font-family: Work Sans;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4a4a4a;
+  color: #322c2c;
   padding-left: 10px;
   padding-top: 0px;
   border-bottom: #322c2c;
 }
 
-.description__container h6 {
+.description__container h3 {
   font-size: 18px;
   font-family: Work Sans;
   font-weight: 400;
   color: #322c2c;
 }
-
+.description__container {
+  padding-bottom: 100px;
+}
 /*About*/
 
 html {
