@@ -67,7 +67,7 @@ html * {
   text-align: center;
   font-family: "Work Sans", sans-serif;
   font-size: 30px;
-  padding-bottom: 220px;
+  padding-bottom: 100px;
 }
 *,
 *:after,
@@ -82,7 +82,7 @@ body {
   font-family: "Bitter", sans-serif;
   color: #fafafa;
   background-color: #fafafa;
-  display: block;
+  display: grid;
 }
 
 /* Border around Photos*/
@@ -112,6 +112,8 @@ div {
   padding-top: 0px;
   margin: 0 auto;
 }
+
+div 
 
 /* Source: http://matthamm.com/box-shadow-curl.html */
 
@@ -282,7 +284,7 @@ blockquote {
   height: auto;
   max-width: 100%;
   margin: auto;
-  display: grid;
+  display: flex;
   align-items: center;
 }
 
@@ -296,6 +298,7 @@ blockquote {
 }
 
 .container {
+  display: flex;
   margin: auto;
   padding: 0 1rem;
   max-width: 75rem;
@@ -308,6 +311,10 @@ main {
 
 .grid {
   padding: 1rem;
+}
+
+.about {
+  display: flex;
 }
 
 @media (min-width: 640px) {
@@ -345,4 +352,44 @@ main {
   }
   @media screen and (max-width: 640px) {
   }
+}
+
+h3 {
+  text-align: center;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+  background-color: #9f4b6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #9f4b6d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-form {
+  border-radius: 5px;
+  background-color: #759792;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
